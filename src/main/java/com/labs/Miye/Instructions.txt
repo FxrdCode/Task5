@@ -1,0 +1,15 @@
+Please implement your task inside the directory with your name on the branch with your name.
+
+Look at how I have done it.
+I renamed the Main class(the one which has your main method) wtith the name of my Task(SpyBot)
+and then in the Main method of the Task5 class call your main method and make sure you have added "args" into the parameters and add any exceptions that your program will require. Your IDE will probably suggest it.
+
+
+After checking that everything works make a pull request where you merge your branch with the main branch.
+Be ready to solve any merge conficts yourself.
+
+
+
+After merging test the application and check if it works.
+
+If it does then you have completed your part.

@@ -1,11 +1,10 @@
 package com.labs;
 
 import com.labs.Laur.SpyBot;
-import com.labs.Laur.Utility;
 
 import java.io.IOException;
 
-public class Main
+public class Task5
 {
     public static void main(String[] args) throws IOException, InterruptedException
     {
