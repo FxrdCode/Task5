@@ -1,4 +1,4 @@
-package com.labs;
+package com.labs.Laur;
 
 import swiftbot.SwiftBotAPI;
 

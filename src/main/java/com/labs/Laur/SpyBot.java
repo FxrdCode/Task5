@@ -1,4 +1,5 @@
-package com.labs;
+package com.labs.Laur;
+import com.labs.Laur.Utility;
 import swiftbot.Button;
 import swiftbot.SwiftBotAPI;
 
@@ -15,14 +16,13 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 
 
-public class Main
+public class SpyBot
 {
 
 
     public record Agent(String callsign, String location)
     {
     }
-
 
     static SwiftBotAPI swiftBot;
     static String orientation = "AB";
@@ -182,7 +182,7 @@ public class Main
         }
     }
 
-    public static Agent authenticateUser(SwiftBotAPI swiftBot, Main.Agent[] agents) throws InterruptedException
+    public static Agent authenticateUser(SwiftBotAPI swiftBot, Agent[] agents) throws InterruptedException
     {
         Utility.clearConsole();
 
