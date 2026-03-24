@@ -1,4 +1,4 @@
-package com.labs;
+package src.main.java.com.labs;
 
 import com.labs.Laur.SpyBot;
 
